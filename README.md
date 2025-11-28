@@ -19,7 +19,7 @@ answering questions from a bunch of policy documents.
 LangChain is a framework that simplifies the development of LLM applications LangChain offers a suite of tools,
 components, and interfaces that simplify the construction of LLM-centric applications. LangChain enables developers to
 build applications that can generate creative and contextually relevant content LangChain provides an LLM class designed
-for interfacing with various language model providers, such as OpenAI, Cohere, and Hugging Face.
+for interfacing with various language model providers, such as Gemini, Cohere, and Hugging Face.
 
 LangChain's versatility and flexibility enable seamless integration with various data sources, making it a comprehensive
 solution for creating advanced language model-powered applications.
@@ -70,10 +70,10 @@ The LangChain framework revolves around the following building blocks:
   text..
 
 - **Generating Embeddings:**  We will be
-  using [OpenAIEmbeddings](https://python.langchain.com/docs/integrations/text_embedding/openai/) from LangChain
+  using [HuggingFaceEmbeddings](https://python.langchain.com/docs/integrations/text_embedding/HuggingFaceEmbeddings/) from LangChain
   package. The Embeddings class
   is a class designed for interfacing with text embedding models.
-  LangChain provides support for most of the embedding model providers (OpenAI, Cohere) including sentence transformers
+  LangChain provides support for most of the embedding model providers (Gemini, Cohere) including sentence transformers
   library from Hugging Face. Embeddings create a vector representation of a piece of text and supports all the
   operations such as similarity search, text comparison, sentiment analysis etc. The base Embeddings class in LangChain
   provides two methods: one for embedding documents and one for embedding a query.
@@ -111,9 +111,9 @@ The LangChain framework revolves around the following building blocks:
 
 - Python 3.7+
 - langchain 0.3.13
-- Please ensure that you add your OpenAI API key to the empty text file named "OpenAI_API_Key.txt" in order to access
+- Please ensure that you add your GEMINI API key to the empty text file named "GEMINI_API_Key.txt" in order to access
   the
-  OpenAI API.
+  GEMINI API.
 
 ## 8. Running
 
