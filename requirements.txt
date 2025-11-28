@@ -1,0 +1,24 @@
+# Data & Utilities
+pandas
+tiktoken
+
+# Vector Database
+chromadb
+
+# OpenAI SDK (optional if you still use OpenAI)
+openai
+
+# Google Gemini API
+google-generativeai
+langchain-google-genai
+
+# HuggingFace Embeddings
+langchain-huggingface
+transformers
+sentence-transformers
+
+# LangChain Core
+langchain-core
+
+# Optional: If using CacheBackedEmbeddings + storage
+langchain-classic
